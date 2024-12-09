@@ -26,7 +26,7 @@ public class Runner {
 	LocalTime endTime2 = LocalTime.of(15, 0);
 	
 	public Runner() {
-		Customer c1 = new Customer(123456, "Larin", "9988711", "iran", "Male", Type.Monthly, 0.25);
+		Customer c1 = new Customer(123456, "saragull", "9988711", "iran", "Male", Type.Monthly, 0.25);
 		Customer c2 = new Customer(654321, "Fatma", "2628987", "Turkey", "Female", Type.Daily, 0.30);
 		customers.add(c1);
 		customers.add(c2);
